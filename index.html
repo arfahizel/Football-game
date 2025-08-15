@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2-Player Football Game</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>2-Player Football Game</h1>
+  <div id="scoreboard" aria-live="polite" aria-label="Scoreboard">
+    <span id="player1Score">Player 1: 0</span> |
+    <span id="player2Score">Player 2: 0</span> |
+    <span id="timer">Time Left: 02:00</span>
+  </div>
+  <canvas id="gameCanvas" width="1200" height="800" aria-label="Football field"></canvas>
+  <button id="restartBtn">Restart Game</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
